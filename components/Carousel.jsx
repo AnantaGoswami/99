@@ -23,13 +23,25 @@ const Carousel = () => {
                 modules={[Autoplay, Pagination, Navigation]}
             >
                 <SwiperSlide>
-                    <img src="/assets/cr_desk.jpg" alt="Slide 1" className="w-full h-auto" />
+                    <picture>
+                        <source media="(max-width: 640px)" srcSet="/assets/cr_mobile.jpg" />
+                        <source media="(min-width: 641px)" srcSet="/assets/cr_desk.jpg" />
+                        <img src="/assets/cr_desk.jpg" alt="Slide 1" className="w-full h-full object-cover" />
+                    </picture>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/assets/cr_desk2.jpg" alt="Slide 2" className="w-full h-auto" />
+                    <picture>
+                        <source media="(max-width: 640px)" srcSet="/assets/cr_mobile2.jpg" />
+                        <source media="(min-width: 641px)" srcSet="/assets/cr_desk2.jpg" />
+                        <img src="/assets/cr_desk2.jpg" alt="Slide 2" className="w-full h-full object-cover" />
+                    </picture>
                 </SwiperSlide>
                 <SwiperSlide>
-                    <img src="/assets/cr_desk3.jpg" alt="Slide 3" className="w-full h-auto" />
+                    <picture>
+                        <source media="(max-width: 640px)" srcSet="/assets/cr_mobile3.jpg" />
+                        <source media="(min-width: 641px)" srcSet="/assets/cr_desk3.jpg" />
+                        <img src="/assets/cr_desk3.jpg" alt="Slide 3" className="w-full h-full object-cover" />
+                    </picture>
                 </SwiperSlide>
             </Swiper>
         </div>

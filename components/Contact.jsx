@@ -103,7 +103,7 @@ const Contact = () => {
                                     aria-label="Email"
                                 />
                             </div>
-                            <button className='btn bg-gradient-to-r from-orange-500 to-red-500 text-white ml-10 py-3 px-5 rounded-full hover:bg-white hover:text-orange transition-all duration-300 uppercase'>
+                            <button className='btn w-[80%] mx-auto bg-gradient-to-r from-orange-500 to-red-500 text-white py-3 rounded-full hover:bg-white hover:text-orange transition-all duration-300 uppercase'>
                                 Request a call back
                             </button>
                         </form>

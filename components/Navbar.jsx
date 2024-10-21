@@ -52,7 +52,7 @@ const Navbar = () => {
         <div className={nav ? 'fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500' : 'hidden fixed left-0 top-0 w-[75%] sm:w-[60%] md:w-[45%] h-screen bg-white p-10 ease-in duration-500'}>
           <div>
             <div className='flex w-full justify-between items-center'>
-              <Image src="/assets/Logo.png" alt="/" width={87} height={35} />
+              <Image src="/assets/logo.png" alt="/" width={87} height={35} />
               <div onClick={handleNav}>
                 <FaWindowClose size={35} />
               </div>
